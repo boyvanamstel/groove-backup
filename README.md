@@ -44,3 +44,9 @@ I started on a `retrieve` script, but I'm not sure if it'll be useful at all. Fe
 ### 0.1.0
 
 * First release.
+
+## Database Structure
+
+This is the database structure I use. I've tried sticking as close to [Groove's model layout](https://www.groovehq.com/docs) as I could.
+
+![Database structure](https://raw.githubusercontent.com/DangerCove/groove-backup/master/screenshots/database-structure.jpg)
