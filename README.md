@@ -7,6 +7,7 @@ Retrieves all your tickets and messages from [Groove](https://www.groovehq.com) 
 ### Making a Backup
 
 Clone the repo:
+
 `$ git clone https://github.com/DangerCove/groove-backup.git`
 
 Run the backup script:
