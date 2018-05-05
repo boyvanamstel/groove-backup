@@ -14,5 +14,9 @@ end
 client = GrooveHQ::Client.new(access_token)
 storage = Backup::Storage.new('output', client)
 
+puts "Fetching all your tickets putting them away safely. This could take a while..."
+
 storage.backup()
+
+puts "All done!"
 

@@ -27,10 +27,10 @@ Using sqlite3 1.3.13
 Bundle complete! 2 Gemfile dependencies, 11 gems now installed.
 Use `bundle info [gemname]` to see where a bundled gem is installed.
 Provide your Private Token:
-
+_
 ```
 
-^ Input your Private Token. [Can be found here](https://dangercove.groovehq.com/groove_client/settings/api).
+^ Input your Private Token. Get if from **Groove Dashboard -> Settings -> API**.
 
 Notice the `./output` folder appear while the script is running.
 

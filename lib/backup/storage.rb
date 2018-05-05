@@ -43,10 +43,7 @@ module Backup
           message.rels[:attachments]&.get&.each do |attachment|
 
             store_attachment(message.id, attachment)
-
-            # Don't download attachments for tickets marked as spam 
-            break if state == "spam"
-            download_attachment(message.id, attachment)
+            download_attachment(message.id, attachment) unless state == "spam"
 
           end
         end
@@ -80,7 +77,6 @@ module Backup
     end
 
     def setup
-      # Create a table
       @db.execute <<-SQL
   CREATE TABLE IF NOT EXISTS Ticket (
     created_at DATETIME,
