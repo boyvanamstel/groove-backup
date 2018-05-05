@@ -1,0 +1,4 @@
+#!/bin/sh
+
+bundle
+bundle exec ruby retrieve.rb
